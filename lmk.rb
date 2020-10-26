@@ -1,4 +1,4 @@
-class LMK < Formula
+class Lmk < Formula
   desc "Simple script to notify MacOS users when commands finish running"
   homepage "https://github.com/nherson/lmk"
   url "https://github.com/nherson/lmk/releases/download/v0.0.1/lmk.tar.gz"
