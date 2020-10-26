@@ -5,7 +5,9 @@ class Lmk < Formula
   sha256 "56586712fbbaef852c4e15c82c38c1e1ac14dbce0845ca9031e6b0fc47d9004a"
   # license ""
   
-  bottle :unneeded
+  def install
+    bin.install "lmk"
+  end
 
   depends_on "terminal-notifier"
 end
